@@ -1,7 +1,32 @@
 # jQuery-DateFormatter
 jQuery DateFormatter can make any kind of inserted date into a formatted date
 
-**Uses**
+### What it does
+
+Correct the entered date in desired format. 
+
+Ex. Suppose someone entered any of below date format, all converted to desired format
+```
+31/12/2015 or 12/31/2015 or 2015-12-31 or 2015-31-12 or 1432635046 (timestamp) >> 12/31/2015
+```
+
+
+**All supported formates**
+```
+mm/dd/yyyy, dd/mm/yyyy, yyyy/mm/dd, yyyy/dd/mm
+mm-dd-yyyy, dd-mm-yyyy, yyyy-mm-dd, yyyy-dd-mm
+mm.dd.yyyy, dd.mm.yyyy, yyyy.mm.dd, yyyy.dd.mm
+Timestamp
+```
+
+
+*Argument*
+<br />
+**Placeholder** : Decide output date format. *default*: mm/dd/yyyy
+
+
+
+**Uses:**
 
 ```HTML
 <!DOCTYPE html>
