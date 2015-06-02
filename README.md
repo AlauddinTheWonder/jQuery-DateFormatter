@@ -1,5 +1,5 @@
 # jQuery-DateFormatter
-jQuery DateFormatter can convert any kind of inserted date into desired formatted date
+jQuery DateFormatter can convert any kind of inserted date into desired formatted date. Means type Date in any form, can be formatted.
 
 ### What it does
 
