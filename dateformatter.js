@@ -2,7 +2,7 @@
  * Date Formatter
  * https://github.com/AlauddinTheWonder/jQuery-DateFormatter
  * Copyright (c) 2015 -	Alauddin Ansari
- * Licensed under the MIT license (http://www.opensource.org/licenses/mit-license.php)
+ * Licensed under the GNU license (http://opensource.org/licenses/gpl-license)
  * Version: 0.0.0-dev
  * Uses: $('#dateinput').dateformatter({placeholder:'mm/dd/yyyy'});
  */
