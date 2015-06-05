@@ -55,7 +55,6 @@
 					if(settings.allowTimestamp)
 					{
 						var dt = new Date(_od*1000);
-						console.log(dt);
 						splitter = "/";
 						_od = (dt.getMonth()+1) + splitter + dt.getDate() + splitter + dt.getFullYear();
 					}

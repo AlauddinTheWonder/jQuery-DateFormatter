@@ -7,7 +7,7 @@ Correct the entered date in desired format.
 
 Ex. Suppose someone entered any of below date format, all converted to desired format
 ```
-31/12/2015 or 12/31/2015 or 2015-12-31 or 2015-31-12 or 1432635046 (timestamp) >> 12/31/2015
+31/12/2015 or 12/31/2015 or 2015-12-31 or 2015-31-12 or 12312015 or 1432635046 (timestamp) >> 12/31/2015
 ```
 
 
@@ -22,8 +22,11 @@ Timestamp
 
 *Argument*
 <br />
-**Placeholder** : Decide output date format. *default*: mm/dd/yyyy
+**placeholder** : Decide output date format. *default*: mm/dd/yyyy
+**allowTimestamp** : if true then can enter timestamp other wise will take as date without any separator
 
+
+[Demo](http://thebestcoders.com/jquery-date-formatter)
 
 
 **Uses:**
